@@ -13,4 +13,149 @@
  */
 
  @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Paytone+One|Permanent+Marker');
+
+
+body{
+  background-image: image-url('kettle.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar.navbar-expand-lg {
+  background-color: black;
+  a.navbar-brand {
+    color: white;
+    font-size: 2.3em;
+    font-family: 'Permanent Marker', cursive;
+  }
+  a {
+    color: white;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    &:hover, :focus, :active {
+      color: #32DEF0;
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px)
+    }
+  }
+}
+
+#index_workouts {
+  margin-top: 30px;
+  a {
+    font-family: 'Paytone One', sans-serif;
+    color: #F942E8;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0;
+    -webkit-text-stroke: 1px black;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    &:hover, :focus, :active {
+      -webkit-transform: skew(-10deg); 
+      transform: skew(-10deg);
+    }
+  }
+  span {
+    color: white;
+  }
+  h3 {
+    color: black;
+  }
+}
+
+#workout, #exercises {
+  .card {
+    margin: 30px 0 30px 0;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 8px;
+    opacity: 0.7;
+  }
+  p {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 1.5em;
+    color: #7CE136;
+    -webkit-text-stroke: 1px black;
+  }
+  h2, h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+  }
+  label {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+  }
+  input.btn.btn-primary {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: border-radius;
+    transition-property: border-radius;
+    &:hover, :focus, :active {
+      border-radius: 1em;
+    }
+  }
+}
+#edit {
+  .card {
+    margin: 30px 0 30px 0;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 8px;
+    opacity: 0.7;
+  }
+  h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+  }
+  input.btn.btn-primary {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: border-radius;
+    transition-property: border-radius;
+    &:hover, :focus, :active {
+      border-radius: 1em;
+    }
+  }
+}
+
+
+
+
+
+
+
 
